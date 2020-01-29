@@ -9,7 +9,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
+    var body: some View {//tuple contains all these views;
         VStack {
             MapView()
                 .frame(height: 300)
@@ -36,7 +36,7 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {//Presents the preview for debugging
     static var previews: some View {
         ContentView()
     }
